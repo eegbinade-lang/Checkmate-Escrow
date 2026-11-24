@@ -10,7 +10,6 @@ __pycache__/
 *.pyc
 
 # Environment secrets
-.env
 
 # Test snapshots (Rust-side scratch dirs from contracts/*/src/tests/snapshots.rs
 # fixtures — unrelated to frontend Vitest snapshots, which ARE committed:
@@ -23,7 +22,6 @@ __pycache__/
 **/test_snapshots/
 
 # IDE / editor
-.vscode/
 .idea/
 *.iml
 
@@ -65,3 +63,5 @@ contracts/predict-iq/
 
 # Task tracking files — not part of the source tree
 tasks.md
+config.bat
+node_modules
